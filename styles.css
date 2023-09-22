@@ -1,0 +1,116 @@
+body
+ {
+    font-family: tahoma;
+    max-width: 1040px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+    background-color: rgb(56, 172, 250);
+    color: rgb(7, 45, 83);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 50px;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 20px;
+    line-height: 25px;
+    max-width: 450px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.fig_lixo {
+    width: 30vw;
+    padding-top: 200px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 50px;
+}
+
+input {
+    margin-top: 20px;
+    height: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+}
+
+select {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+}
+
+.addBtn {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgb(7, 45, 83);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+
+.addBtn:hover {
+    background-color: rgb(42, 181, 58);
+    color: rgb(255, 255, 255);
+}
+
+.tab{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9 em;
+    min-width: 400 px;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    cursor: pointer;  
+}
+
+.tab th {
+    background-color: rgb(255, 255, 255);
+    color: rgb(7, 45, 83);
+    text-align: center;
+    font-weight: bold;
+}
+
+.tab th, 
+.tab td {
+    padding: 12px 15px;
+}
+
+.tab tbody tr {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+tr:hover {
+    background-color: rgb(222, 245, 211);  
+}
+
+footer{
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin: 70px;
+}
+
+
