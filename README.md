@@ -39,6 +39,6 @@ Exibe, insere e exclui registros de praias com lixo.
 
 ### Autor
 
-Este projeto foi desenvolvido por Marco Antonio de Souza e pode ser encontrado no gihub.
+Este projeto foi desenvolvido por Marco Antonio de Souza e pode ser encontrado no [Gihub](https://github.com/souzamasito?tab=repositories).
 
 
